@@ -26,7 +26,7 @@ Pod::Spec.new do |spec|
   spec.vendored_frameworks = 'StreambirdDeviceSenseFramework.xcframework'
 
   spec.source = {
-    :http => "https://nyc3.digitaloceanspaces.com/streambird-js/sdk/dist/edge/StreambirdDeviceSenseFramework.xcframework.zip"
+    :http => "https://nyc3.digitaloceanspaces.com/streambird-js/sdk/dist/edge/StreambirdDeviceSenseFrameworkTHISSHOULDBREAK.xcframework.zip"
   }
 
 end

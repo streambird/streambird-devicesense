@@ -1,0 +1,21 @@
+PODS:
+  - StreambirdDeviceSense (0.0.1)
+
+DEPENDENCIES:
+  - StreambirdDeviceSense (from `https://github.com/streambird/streambird-devicesense.git`)
+
+EXTERNAL SOURCES:
+  StreambirdDeviceSense:
+    :git: https://github.com/streambird/streambird-devicesense.git
+
+CHECKOUT OPTIONS:
+  StreambirdDeviceSense:
+    :commit: 32f7069358cb49577e9c14edaff8dbfbbb982e37
+    :git: https://github.com/streambird/streambird-devicesense.git
+
+SPEC CHECKSUMS:
+  StreambirdDeviceSense: bea96d196cc9701e3287220fcbc6f5cb6985ab5d
+
+PODFILE CHECKSUM: 3339b8db74969572ad8d1deb7ee62b5dfc51f882
+
+COCOAPODS: 1.11.3
