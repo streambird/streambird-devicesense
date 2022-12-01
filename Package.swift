@@ -14,7 +14,7 @@ let package = Package(
   targets: [
     .binaryTarget(
       name: "StreambirdDeviceSense",
-      url: "https://nyc3.digitaloceanspaces.com/streambird-js/sdk/dist/edge/StreambirdDeviceSenseFramework.xcframework.zip"
+      url: "https://nyc3.digitaloceanspaces.com/streambird-js/sdk/dist/frameworks/StreambirdDeviceSenseFramework-latest.xcframework.zip"
     ),
   ]
 )
