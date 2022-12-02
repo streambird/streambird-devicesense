@@ -1,9 +1,11 @@
+// swift-tools-version:5.3
+
 import PackageDescription
 
 let package = Package(
   name: "StreambirdDeviceSense",
   platforms: [
-    .iOS(.v12), .tvOS(.v12)
+    .iOS(.v12)
   ],
   products: [
     .library(
@@ -13,8 +15,8 @@ let package = Package(
   ],
   targets: [
     .binaryTarget(
-      name: "StreambirdDeviceSense",
-      url: "https://nyc3.digitaloceanspaces.com/streambird-js/sdk/dist/frameworks/StreambirdDeviceSenseFramework-latest.xcframework.zip"
+      name: "StreambirdDeviceSenseFramework",
+      url: "https://nyc3.digitaloceanspaces.com/streambird-js/sdk/dist/frameworks/StreambirdDeviceSenseFramework-0.0.1.xcframework.zip"
     ),
   ]
 )

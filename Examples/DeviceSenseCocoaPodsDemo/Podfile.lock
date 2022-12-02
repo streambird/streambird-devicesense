@@ -2,20 +2,15 @@ PODS:
   - StreambirdDeviceSense (0.0.1)
 
 DEPENDENCIES:
-  - StreambirdDeviceSense (from `https://github.com/streambird/streambird-devicesense.git`)
+  - StreambirdDeviceSense
 
-EXTERNAL SOURCES:
-  StreambirdDeviceSense:
-    :git: https://github.com/streambird/streambird-devicesense.git
-
-CHECKOUT OPTIONS:
-  StreambirdDeviceSense:
-    :commit: 688a4f52d0dcf2f7b5d087e4beca9c08d7c83f6d
-    :git: https://github.com/streambird/streambird-devicesense.git
+SPEC REPOS:
+  trunk:
+    - StreambirdDeviceSense
 
 SPEC CHECKSUMS:
-  StreambirdDeviceSense: 69a014d24b61d9d7aa57f79d116e4f4a4e72801b
+  StreambirdDeviceSense: fb9bbb0cfc37fc627386366fb1edca04d5988544
 
-PODFILE CHECKSUM: 3339b8db74969572ad8d1deb7ee62b5dfc51f882
+PODFILE CHECKSUM: 0346dd0fb1d6bdeec4e7bae9c165a75db1f563cc
 
 COCOAPODS: 1.11.3

@@ -15,9 +15,9 @@ Pod::Spec.new do |spec|
   spec.summary      = 'Streambird Device Sense library for iOS'
   spec.author       = { "streambird" => "dev@streambird.io" }
   spec.description  = <<-DESC
-  The purpose of the Device Sense SDK is to gather device signals in order to distinctively identify iOS devices.
-  The SDK will communicate with the Streambird backend services and compute the information provided and it will 
-  return a precise fingerprint payload.
+  The purpose of the Streambird Device Sense SDK is to gather device signals in order to distinctively identify iOS devices for fraud detection. 
+  This SDK is part of the Streambird platform that will communicate with the Streambird API services and compute the information given and 
+  return a precise device fingerprint to be used alongiside the authentication services.
   DESC
   
   spec.ios.deployment_target = '12.0'
