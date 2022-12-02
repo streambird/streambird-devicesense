@@ -3,14 +3,14 @@
 import PackageDescription
 
 let package = Package(
-  name: "StreambirdDeviceSense",
+  name: "StreambirdDeviceSenseFramework",
   platforms: [
     .iOS(.v12)
   ],
   products: [
     .library(
-      name: "StreambirdDeviceSense",
-      targets: ["StreambirdDeviceSense"]
+      name: "StreambirdDeviceSenseFramework",
+      targets: ["StreambirdDeviceSenseFramework"]
     ),
   ],
   targets: [

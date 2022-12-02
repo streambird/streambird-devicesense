@@ -106,7 +106,6 @@
 			);
 			mainGroup = 52A3B71D293A76BD00A40D9D;
 			packageReferences = (
-				52A3B73D293A781B00A40D9D /* XCRemoteSwiftPackageReference "streambird-devicesense" */,
 			);
 			productRefGroup = 52A3B727293A76BD00A40D9D /* Products */;
 			projectDirPath = "";
@@ -353,17 +352,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		52A3B73D293A781B00A40D9D /* XCRemoteSwiftPackageReference "streambird-devicesense" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/streambird/streambird-devicesense";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 0.0.1;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 52A3B71E293A76BD00A40D9D /* Project object */;
 }
