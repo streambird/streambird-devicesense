@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "StreambirdDeviceSense"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.3"
 
   spec.homepage     = "https://streambird.io"
 
@@ -26,7 +26,7 @@ Pod::Spec.new do |spec|
   spec.vendored_frameworks = 'StreambirdDeviceSenseFramework.xcframework'
 
   spec.source = {
-    :http => "https://nyc3.digitaloceanspaces.com/streambird-js/sdk/dist/frameworks/StreambirdDeviceSenseFramework-0.0.2.xcframework.zip"
+    :http => "https://nyc3.digitaloceanspaces.com/streambird-js/sdk/dist/frameworks/StreambirdDeviceSenseFramework-#{spec.version}-4220402dfa67469132cf766809e480b0770535af9a24038af2823d289a17d404.xcframework.zip"
   }
 
 end
